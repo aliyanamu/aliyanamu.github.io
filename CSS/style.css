@@ -158,3 +158,17 @@ img.frontpic {
 .inlinef {display: inline-flex;}
 
 .inlinef h2 {margin-right: 20px}
+
+#contact .col-8, #contact .col-4 {
+  float: left;
+  padding: 5px 10px 0;
+  text-align: left;
+}
+
+#contact .col-8 {
+  width: calc(100% * (7.9/12));
+}
+
+#contact .col-4 {
+  width: calc(100% * (3.9/12));
+}
