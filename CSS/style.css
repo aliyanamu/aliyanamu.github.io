@@ -32,7 +32,7 @@ body {
   position: absolute;
   top: 0;
   z-index: 10;
-  background-color: transparent;
+  background-color: #eaf3f2;
 }
 
 .topbar a {
