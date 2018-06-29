@@ -60,7 +60,7 @@ a {
 }
 
 .topbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 10;
   background-color: #eaf3f2; /*broken white*/
@@ -144,4 +144,9 @@ img.frontpic {
 .col-4 a {
   color: #551a8b;
   font-weight: bold;
+}
+
+#contact {
+  background-color: #ffb6c1; /*lavender pink*/
+  color: #000;
 }
