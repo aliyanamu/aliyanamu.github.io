@@ -63,12 +63,12 @@ a {
   position: absolute;
   top: 0;
   z-index: 10;
-  background-color: #eaf3f2; //broken white
+  background-color: #eaf3f2; /*broken white*/
 }
 
 .topbar a {
   font-family: 'Space Mono';
-  color: #551a8b; //dark purple
+  color: #551a8b; /*dark purple*/
 }
 
 .leftbar {
@@ -118,8 +118,8 @@ img.frontpic {
 }
 
 #about {
-  background-color: #804a7b; //light purple
-  color: #ffb6c1; //lavender pink
+  background-color: #804a7b; /*light purple*/
+  color: #ffb6c1; /*lavender pink*/
 }
 
 
