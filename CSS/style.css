@@ -106,9 +106,10 @@ img.frontpic {
 
 .container {
   max-width: 1024px;
+  margin: 0 auto;
 }
 
 #about {
-  background-color: #dae6e4;
+  background-color: #804a7b;
   color: #ffb6c1;
 }
