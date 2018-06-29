@@ -99,7 +99,9 @@ img.homeimg {
   float: right;
 }
 
-.rightbar::after, .rightbar::before {
+.rightbar:after, .rightbar:before, .prow:after  {
+  content: "";
+  display: table;
   clear: both;
 }
 
@@ -130,6 +132,7 @@ img.frontpic {
 
 .col-4 {
   width: calc(100% * (3.9/12));
+  float: left;
 }
 
 .col-4 i {
