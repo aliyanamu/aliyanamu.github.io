@@ -72,12 +72,19 @@ a {
 .leftbar {
   font-family: 'Shrikhand';
   position: absolute;
+  display: inline-flex;
   left:0;
 }
 
 .leftbar a {
   font-size: 40px;
-  padding: 0 30px;
+  padding: 0 0 0 10px;
+}
+
+img.homeimg {
+  width: 21%;
+  height: 21%;
+  padding: 5px 0 0 30px;
 }
 
 .rightbar {
