@@ -104,7 +104,11 @@ img.frontpic {
   max-height: 700px;
 }
 
+.container {
+  max-width: 1024px;
+}
+
 #about {
   background-color: #dae6e4;
-  color: #e2c0ef;
+  color: #ffb6c1;
 }
