@@ -130,7 +130,6 @@ img.frontpic {
 
 .col-4 {
   width: calc(100% * (3.9/12));
-  display: inline-flex;
 }
 
 .col-4 i {
