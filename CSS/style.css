@@ -26,11 +26,18 @@ body {
   overflow-x: hidden;
 }
 
-topbar {
+.topbar {
   position: absolute;
   top: 0;
+  background-color: transparent;
 }
 
-topbar a {
+.topbar a {
   color: rgb(85, 26, 139);
+}
+
+img.frontpic {
+  display: block;
+  width: 100%;
+  position: relative;
 }
