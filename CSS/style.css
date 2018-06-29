@@ -133,6 +133,8 @@ img.frontpic {
 .col-4 {
   width: calc(100% * (3.9/12));
   float: left;
+  padding: 5px 10px 0;
+  text-align: center;
 }
 
 .col-4 i {
