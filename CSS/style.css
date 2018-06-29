@@ -135,3 +135,8 @@ img.frontpic {
 .col-4 i {
   color: #551a8b;
 }
+
+.col-4 a {
+  color: #551a8b;
+  font-weight: bold;
+}
