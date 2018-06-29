@@ -21,6 +21,7 @@
 }
 
 body {
+  font-family: 'Space Mono';
   display: block;
   margin: 0;
   padding: 0;
@@ -70,11 +71,12 @@ a {
 
 .leftbar a {
   font-size: 40px;
-  padding: 0 0 0 10px;
+  padding: 0 20px;
 }
 
 .leftbar .fa-code {
   color: rgb(85, 26, 139);
+  margin: auto 10px;
 }
 
 img.homeimg {
