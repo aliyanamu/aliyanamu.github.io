@@ -38,6 +38,7 @@ nav ul{
 }
 
 nav ul li {
+
 }
 
 nav ul li a {
@@ -45,7 +46,6 @@ nav ul li a {
 }
 
 .topbar {
-  display: inline-flex;
   position: absolute;
   top: 0;
   z-index: 10;
@@ -54,6 +54,15 @@ nav ul li a {
 
 .topbar a {
   color: rgb(85, 26, 139);
+}
+
+.leftbar {
+  position: absolute;
+  left:0;
+}
+
+.rightbar {
+  float: right;
 }
 
 img.frontpic {
