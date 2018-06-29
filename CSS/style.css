@@ -71,12 +71,14 @@ a {
 
 .leftbar a {
   font-size: 40px;
+  font-weight: bold;
   padding: 0 20px;
 }
 
 .leftbar .fa-code {
   color: rgb(85, 26, 139);
   margin: auto 10px;
+  font-weight: bold;
 }
 
 img.homeimg {
@@ -104,6 +106,7 @@ img.frontpic {
 .container {
   max-width: 1024px;
   margin: 0 auto;
+  padding: 50px 0;
 }
 
 #about {
