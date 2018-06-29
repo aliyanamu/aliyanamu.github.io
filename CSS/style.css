@@ -36,7 +36,7 @@ body {
   overflow-x: hidden;
 }
 
-nav {
+nav, section {
   width: 100%;
 }
 
@@ -100,5 +100,11 @@ img.frontpic {
   display: block;
   width: 100%;
   position: relative;
+  margin-top: -100px;
   max-height: 700px;
+}
+
+#about {
+  background-color: #dae6e4;
+  color: #e2c0ef;
 }
