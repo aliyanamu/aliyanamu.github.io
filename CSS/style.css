@@ -46,7 +46,7 @@ nav ul{
 }
 
 nav ul li {
-  padding: 20px 30px;
+  padding: 10px 30px 20px;
 
 }
 
@@ -73,6 +73,11 @@ a {
   font-family: 'Shrikhand';
   position: absolute;
   left:0;
+}
+
+.leftbar a {
+  font-size: 40px;
+  padding: 0 30px;
 }
 
 .rightbar {
