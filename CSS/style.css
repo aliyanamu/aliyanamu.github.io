@@ -28,7 +28,18 @@ body {
   overflow-x: hidden;
 }
 
+nav ul{
+  list-style-type: none;
+  text-decoration: none;
+}
+
 nav ul li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav ul li a {
+  list-style-type: none;
   text-decoration: none;
 }
 
