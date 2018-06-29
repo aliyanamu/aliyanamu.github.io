@@ -28,6 +28,10 @@ body {
   overflow-x: hidden;
 }
 
+nav ul li a {
+  text-decoration: none;
+}
+
 .topbar {
   position: absolute;
   top: 0;
