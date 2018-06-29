@@ -37,7 +37,7 @@ h5 {font-size: 20px}
 h6 {font-size: 16px}
 p {font-size: 14px}
 
-nav, section, .col-12 {
+nav, section {
   width: 100%;
 }
 
