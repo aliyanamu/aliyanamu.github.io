@@ -125,5 +125,13 @@ img.frontpic {
 
 #project {
   background-color: #fff;
+  color: #551a8b; /*dark purple*/
+}
+
+.col-4 {
+  width: calc(100% * (4/12));
+}
+
+.col-4 i {
   color: #551a8b;
 }
