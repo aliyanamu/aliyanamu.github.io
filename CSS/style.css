@@ -31,7 +31,7 @@ body {
 .topbar {
   position: absolute;
   top: 0;
-  z-index: 0;
+  z-index: 10;
   background-color: transparent;
 }
 
@@ -43,4 +43,5 @@ img.frontpic {
   display: block;
   width: 100%;
   position: relative;
+  max-height: 700px;
 }
