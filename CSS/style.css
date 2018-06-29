@@ -156,3 +156,5 @@ img.frontpic {
 }
 
 .inlinef {display: inline-flex;}
+
+.inlinef h2 {margin-right: 20px}
