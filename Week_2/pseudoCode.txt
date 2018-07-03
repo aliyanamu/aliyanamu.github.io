@@ -40,27 +40,20 @@ END IF
 ALGORITMA:
 1. Tentukan nilai batas maksimum cucian Foxie dengan angka berapapun (20)
 2. Set nilai counter mulai dari 0
-3. Cek apakah semua cucian Foxie sudah masuk ke dalam mesin cucian
-  3.a Jika jumlah cucian yang masuk ke dalam mesin cuci sama dengan batas
-      maksimum cucian Foxie, maka lanjut ke langkah 4
-  3.b Jika jumlah cucian yang masuk ke dalam mesin cuci kurang dari batas
-      maksimum cucian Foxie, maka hitung jumlah pakaian. Lalu, counter ditambah 1
-  3.c Jika jumlah cucian lebih dari batas maksimum cucian Foxie, maka
-      ada di antaranya yang bukan cucian Foxie (Kok bisa?)
-4. Nyalakan mesin cuci
+3. Masukkan satu persatu pakaian Foxie sambil dihitung jumlah pakaian Foxie
+   yang telah masuk ke dalam mesin cuci, counter ditambah 1
+4. Ketika semua cucian sudah masuk, nyalakan mesin cuci
 
 PSEUDOCODE:
 STORE "batasLaundry" with any value number (20)
 STORE "counter" = 0
 
-IF "counter" EQUALS "batasLaundry"
-  DISPLAY "Nyalakan mesin cuci"
-ELSE IF "counter" LESS THAN "batasLaundry"
+WHILE "counter" LESS THAN "batasLaundry"
   DISPLAY "Jumlah pakaianmu di dalam mesin cuci : ", "counter"
   ADD "counter" by 1
-ELSE
-  DISPLAY "Mungkin ada pakaian orang lain di dalam keranjangmu, Foxie"
-END IF
+END WHILE
+
+DISPLAY "Nyalakan mesin cuci!"
 
 ///////////////////////////////////////////////////////
 ALGORITMA:
