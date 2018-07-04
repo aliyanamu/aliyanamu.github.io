@@ -53,7 +53,7 @@ WHILE "counter" LESS THAN "batasLaundry"
   ADD "counter" by 1
 END WHILE
 
-DISPLAY "Nyalakan mesin cuci!"
+DISPLAY "Nyalakan mesin cuci!"s
 
 ///////////////////////////////////////////////////////
 ALGORITMA:
