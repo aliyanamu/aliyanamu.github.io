@@ -1,18 +1,17 @@
 function groupAnimals(animals) {
-  animals.sort();
-  var whole = []
+  var kamus = "abcdefghijklmnopqrstuvwxyz"
+  var gAnimals = []
 
-  for(var i=0; i < animals.length; i++) {
-    var firstLetter = animals[i].charAt(0)
-    var cat = [];
-
-    for (var j = 0; j < animals.length; j++) {
-      if (animals[j][0] === firstLetter) {
-        i=i+ cat.length;
-        cat.push(animals[j]);
+  for(var i=0; i<kamus.length; i++) {
+    var arr = []
+    for(var j=0; j<animals.length; j++) {
+      if (kamus[i] === animals[j][0]) {
+        arr.push(animals[j]);
       }
     }
-    whole.push(cat);
+    if (arr.length !== 0) {
+      gAnimals.push(arr)
+    }
   }
-  return whole
+  return gAnimals
 }
