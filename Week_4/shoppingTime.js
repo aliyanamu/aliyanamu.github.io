@@ -1,5 +1,5 @@
 function shoppingTime(memberId, money) {
-  var str, buy = [], remainder;
+  var str, buy = [], remainder, num = money;
   var listProduct = [{product: 'Sepatu brand Stacattu', price: 1500000},{product: 'Baju brand Zoro', price: 500000},{product: 'Baju brand H&N', price: 250000},{product: 'Sweater brand Uniklooh', price: 175000},{product: 'Casing Handphone', price: 50000}]
 
   if (memberId === '' || memberId === undefined) {
@@ -15,7 +15,7 @@ function shoppingTime(memberId, money) {
         }
         remainder = money
       }
-      str = {memberId: memberId, money: money, listPurchased: buy, changeMoney: remainder}
+      str = {memberId: memberId, money: num, listPurchased: buy, changeMoney: remainder}
     }
   }
   return str
