@@ -8,7 +8,7 @@ function countProfit(shoppers) {
   for (let i = 0; i < listBarang[0].length; i++) {
     let productShopper = [], whatLeft = listBarang[i][2], whatGet = 0;
     for (let j = 0; j < shoppers.length; j++) {
-      if (whatLeft - shoppers[j].amount > 0) {
+      if (whatLeft - shoppers[j].amount >= 0) {
         if (listBarang[i][0] === shoppers[j].product) {
           var buyer = shoppers[j].name
           productShopper.push(buyer)
