@@ -1,5 +1,5 @@
 function hapusSimbol(str) {
-  return str.match(/[a-z0-9]+/gi).join('')
+  return str.match(/[a-z0-9]+/g).join('')
 }
 
 // TEST CASES
