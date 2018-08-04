@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(60deg, #fff, #fff 30%, #000 50%, #000);
+    background-size: 800% 800%;
+    height: 100vh;
+    -webkit-perspective: 600px;
+            perspective: 600px;
+    display: block;
+    font-family: 'Arial';
+    justify-content: center;
+    align-items: center;
+    -webkit-animation: bg 16s ease forwards;
+            animation: bg 16s ease forwards;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+@keyframes bg {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+}
+  
+#center_icon {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 10% auto 0;
+    outline: 1px solid transparent;
+    background-color: coral;
+    animation: square-to-circle 2s 1s ease forwards;
+}
+
+#center_icon::before {
+    content: '+';
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+
+.openHid {
+    cursor: pointer;
+}
+
+@keyframes square-to-circle {
+    0%  {
+      border-radius:0 0 0 0;
+      background:coral;
+      transform:rotate(0deg);
+    }
+    25%  {
+      border-radius:50% 0 0 0;
+      background:darksalmon;
+      transform:rotate(45deg);
+    }
+    50%  {
+      border-radius:50% 50% 0 0;
+      background:indianred;
+      transform:rotate(90deg);
+    }
+    75%  { 
+      border-radius:50% 50% 50% 0;
+      background:lightcoral;
+      transform:rotate(135deg);
+    }
+    100% {  
+      border-radius:50%;
+      background:darksalmon;
+      transform:rotate(180deg);
+    }
+}
+
+#text-box {
+    background-color: #dcddd8;
+    height: 50px;
+    width: 78%;
+    margin: 0 0 0 8%;
+    color: darksalmon;
+    font-size: 20px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: darksalmon;
+    opacity: 0.7; /* Firefox */
+    filter: alpha(opacity=70);
+}
+
+.add-ctrl {
+    cursor: pointer;
+}
+
+.fa-plus:before {
+    display: initial !important;
+    color:white;
+    background-color: darksalmon;
+    padding: 5px 7px;
+    border-radius: 50%;
+}
+
+#input-box {
+    width: 0;
+    background-color: #dcddd8;
+    margin: 5% auto;
+    height: 50px;
+    border-radius: 30px;
+    overflow:hidden;
+    
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    transition: width 0.3s;
+}
+
+.input-box-open {
+    width: 300px!important;
+}
+
+.todo-list {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.todo-list li {
+    margin: 10px auto;
+    background: transparent;
+}
+
+.checkbox {
+    line-height: 45px;
+    font-size: 20px;
+    padding-left: 5%;
+    color: darksalmon;
+    background: #dcddd8;
+    height: 50px;
+    border-radius: 30px;
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px
+}
+
+.close {
+    float: right;
+    margin-right: 5%;
+    cursor: pointer;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
