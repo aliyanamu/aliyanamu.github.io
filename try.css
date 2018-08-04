@@ -150,6 +150,17 @@ body {
     width: 100%;
 }
 
+.checkbox-paste::after {
+    content: '\2713';
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: darksalmon;
+}
+
 input[type="checkbox"] {
     margin-right: 10px
 }
@@ -160,4 +171,10 @@ input[type="checkbox"] {
     cursor: pointer;
     opacity: 0.7;
     filter: alpha(opacity=70);
+}
+
+.backview {
+    background-color: darksalmon;
+    color: white;
+    text-decoration: line-through;
 }

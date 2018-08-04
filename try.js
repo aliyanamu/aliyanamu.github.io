@@ -73,11 +73,17 @@ $('.todo-list').on('click', '.close', function(){
 
 $('.todo-list').on('click', 'input[type="checkbox"]', function(event){	
     var li = $(this).parent().parent();
-    
+    var checked = $('input[type="checkbox"]')
     li.toggleClass('animated flipInX');
     setTimeout(function(){
         li.removeClass('animated flipInX');
     }, 500);
+    
+    if (checked.is(':checked')) {
+        li.addClass('backview')
+    } else {
+        li.removeClass('backview')
+    }
 });
 
 });
